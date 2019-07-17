@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_issupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isSupport" />
+    <Button
+        android:id="@+id/button_udid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getUDID" />
+
+    <Button
+        android:id="@+id/button_oaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getOAID" />
+
+    <Button
+        android:id="@+id/button_vaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getAVID" />
+
+    <Button
+        android:id="@+id/button_aaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getAAID" />
+
+
+</LinearLayout>
